@@ -36,6 +36,8 @@ alias uins="yay -Rns"
 alias up="yay -Syyu"
 alias clean="yay -Rns $(pacman -Qdtq)"
 alias szsh="source ~/.zshrc"
+alias uwg0="wg-quick up wg0"
+alias dwg0="wg-quick down wg0"
 ```
 
 ### LLD
@@ -170,6 +172,7 @@ git log --pretty=short
 git log --graph
 git log xx.md
 git log -p xx.md
+git reflog expire --expire=7.days.ago --expire-unreachable=now --all
 git diff
 git diff HEAD
 ```
@@ -182,6 +185,8 @@ git branch -b xx
 git branch -
 git merge --no-ff xx
 git reset --hard yyyyyyy
+git checkout --orphan
+git branch --set-upstream-to=origin/master
 git reflog
 ```
 
