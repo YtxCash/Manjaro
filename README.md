@@ -93,19 +93,14 @@ IncludeCategories:
     SortPriority:    0
 ```
 
-### WireGuard
+### Shadowsocks
+
+install
 
 ```shell
-
-wget --no-check-certificate -O /opt/wireguard.sh https://raw.githubusercontent.com/teddysun/across/master/wireguard.sh
-
-chmod 755 /opt/wireguard.sh
-
-/opt/wireguard.sh -s
-
-cat /etc/wireguard/wg0_client
-
-qrencode -t ansiutf8 < /etc/wireguard/wg0_client
+wget -N --no-check-certificate -c -t3 -T60 -O ss-plugins.sh https://git.io/fjlbl
+chmod +x ss-plugins.sh
+./ss-plugins.sh
 ```
 
 ### Qt 6.2
