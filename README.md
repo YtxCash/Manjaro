@@ -6,18 +6,10 @@
 
 刻录：ventoy + [manjaro && win11]
 
-## Time
-
-```shell
-sudo timedatectl set-local-rtc true
-sudo pacman -Syyu
-sudo pacman -S yay
-```
-
 ## Software
 
 ```shell
-yay -S clang llvm lld lldb cmake make wireguard-tools boost cpplint bitwarden latte-dock tldr
+yay -S clang llvm lld lldb cmake make  boost cpplint tldr
 yay -S gnucash wget git
 yay -S google-chrome visual-studio-code-bin
 ```
