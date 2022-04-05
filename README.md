@@ -9,8 +9,7 @@
 ## Software
 
 ```shell
-yay -S clang llvm lld lldb cmake make  boost cpplint tldr
-yay -S gnucash wget git
+yay -S clang llvm lld lldb cmake make boost cpplint tldr gnucash wget git
 yay -S google-chrome visual-studio-code-bin
 ```
 
