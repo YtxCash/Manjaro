@@ -38,8 +38,6 @@ alias uins="yay -Rns"
 alias up="yay -Syyu"
 alias clean="yay -Rns $(pacman -Qdtq)"
 alias szsh="source ~/.zshrc"
-alias uwg0="wg-quick up wg0"
-alias dwg0="wg-quick down wg0"
 ```
 
 ### LLD
