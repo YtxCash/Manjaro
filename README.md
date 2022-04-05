@@ -9,8 +9,18 @@
 ## Software
 
 ```shell
-yay -S clang llvm lld lldb cmake make boost cpplint tldr gnucash wget git
-yay -S google-chrome visual-studio-code-bin
+yay -S clang llvm lld lldb cmake make boost cpplint tldr gnucash wget git vim
+yay -S google-chrome visual-studio-code-bin fcitx5 fcitx5-qt fcitx5-configtool fcitx5-rime fcitx5-gtk
+```
+
+### rime
+
+```shell
+sudo vim ~/.xprofile
+export GTK_IM_MODULE=fcitx5
+export QT_IM_MODULE=fcitx5
+export XMODIFIERS=@im=fcitx
+fcitx5 &
 ```
 
 ### Zsh
