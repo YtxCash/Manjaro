@@ -217,18 +217,6 @@ hardware -> input devices -> Keyboard -> Hardware -> NumLock on Plasma Startup -
 
 workspace -> workspace behavior -> activities -> privacy -> do not remember
 
-### Appearance
-
-global-theme -> Arc dark
-
-application style -> oxygen
-
-icons -> arc-icons
-
-coursors -> arc-icons
-
-splash screen -> arc dark
-
 ## Uninstall Clean
 
 ```shell
