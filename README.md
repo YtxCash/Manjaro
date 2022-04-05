@@ -19,7 +19,7 @@ yay -S google-chrome visual-studio-code-bin fcitx5 fcitx5-qt fcitx5-configtool f
 sudo vim ~/.xprofile
 export GTK_IM_MODULE=fcitx5
 export QT_IM_MODULE=fcitx5
-export XMODIFIERS=@im=fcitx
+export XMODIFIERS=@im=fcitx5
 fcitx5 &
 ```
 
