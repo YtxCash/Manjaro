@@ -17,6 +17,7 @@ yay -S google-chrome visual-studio-code-bin fcitx5 fcitx5-qt fcitx5-configtool f
 
 ```shell
 sudo vim ~/.xprofile
+export INPUT_METHOD=fcitx5
 export GTK_IM_MODULE=fcitx5
 export QT_IM_MODULE=fcitx5
 export XMODIFIERS=@im=fcitx5
